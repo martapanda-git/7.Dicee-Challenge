@@ -18,3 +18,7 @@
     } else {
       document.querySelector("h1").innerHTML = "Player 2 win!";
     }
+
+    if(randomDice1 === randomDice2) {
+      document.querySelector("h1").innerHTML = "Remis!";
+    }
