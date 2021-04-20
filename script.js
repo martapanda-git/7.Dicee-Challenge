@@ -34,8 +34,8 @@ document.querySelector(".img2").setAttribute("src", dice2);
 
 if (randomDice1 > randomDice2) {
   document.querySelector("h1").innerHTML = "🏆 Player 1 Wins!";
-} if (randomDice1 < randomDice2) {
+} else if (randomDice1 < randomDice2) {
   document.querySelector("h1").innerHTML = "Player 2 Wins! 🏆 ";
-} if (randomDice1 === randomDice2){
+} else if (randomDice1 === randomDice2){
 document.querySelector("h1").innerHTML = "Draw!";
 }
